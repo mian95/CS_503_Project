@@ -7,6 +7,8 @@
     <title>About Us - Healthy Living</title>
     <link rel="stylesheet" href="about.css" />
     <link rel="stylesheet" href="recipes.css" /> <!-- Reusing existing styles -->
+    <link rel="stylesheet" href="responsive.css">
+    <!-- /* Responsive Sheet  -->
   </head>
   <body>
     <header>
@@ -14,6 +16,10 @@
         <div class="logo">
           <h1>Healthy Living</h1>
         </div>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span class="open-btn">☰</span> <!-- Open button -->
+          <span class="close-btn" style="display: none;">✖</span> <!-- Close button -->
+      </button>
         <ul class="nav-links">
           <li><a href="index.html">Home</a></li>
           <li><a href="fitness.html">Fitness</a></li>
@@ -64,6 +70,6 @@
       </div>
     </footer>
 
-    <script src="1st.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>

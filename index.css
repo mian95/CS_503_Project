@@ -40,7 +40,7 @@ body {
 
 .logo h1 {
     color: var(--primary-color);
-    font-size: 2rem; /* Increased font size for logo */
+    font-size: 1.8rem; /* Increased font size for logo */
 }
 
 .nav-links {
@@ -225,27 +225,5 @@ footer {
     text-align: center;
     padding-top: 2rem;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .nav-links {
-        margin-top: 1rem;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .hero h2 {
-        font-size: 2rem;
-    }
-
-    .post-grid {
-        grid-template-columns: 1fr;
-    }
 }
 

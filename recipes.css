@@ -40,7 +40,7 @@ body {
 
 .logo h1 {
     color: var(--primary-color);
-    font-size: 2rem; /* Increased font size for logo */
+    font-size: 1.8rem; /* Increased font size for logo */
 }
 
 .nav-links {
