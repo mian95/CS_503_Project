@@ -1,0 +1,25 @@
+{
+  "name": "cs-513",
+  "version": "1.0.0",
+  "description": "Its CS_513's class project for health",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mian95/CS_503_Project.git"
+  },
+  "author": "Muhammad Umair",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mian95/CS_503_Project/issues"
+  },
+  "homepage": "https://github.com/mian95/CS_503_Project#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.2"
+  }
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wellness - Healthy Living</title>
+    <link rel="stylesheet" href="styles/wellness.css">
+    <!-- /* Responsive Sheet */ -->
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+</head>
+<body>
+    <header>
+        <nav class="navbar"> <!-- Added navbar -->
+            <div class="logo">
+                <h1><a href="/">Healthy Living</a></h1>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span class="open-btn">☰</span> <!-- Open button -->
+                <span class="close-btn" style="display: none;">✖</span> <!-- Close button -->
+            </button>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="fitness">Fitness</a></li>
+                <li><a href="wellness" class="active">Wellness</a></li>
+                <li><a href="recipes">Healthy Recipes</a></li>
+                <li><a href="outer_blog">Blog</a></li>
+                <li><a href="community">Community</a></li>
+                <li><a href="about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="container">
+
+          <!-- Community Hero Section -->
+          <section class="hero community-hero">
+            <h2>Get wellness</h2>
+            <p>Connect, share, and grow with like-minded individuals on their health journey</p>
+            <a href="#wellness" class="cta-button">Get Wellness</a>
+        </section>
+
+        <h2>Wellness & Self-Care</h2>
+        
+        <section id="wellness" class="wellness-topics">
+            <article class="wellness-card">
+                <img src="<%=mentalHealth%>" alt="Mental Health">
+                <h3>Mental Health</h3>
+                <p>Tips for maintaining good mental health and reducing stress...</p>
+                <a href="wellness/blog" class="read-more">Read More</a>
+            </article>
+
+            <article class="wellness-card">
+                <img src="<%=sleepHygiene%>" alt="Sleep Hygiene">
+                <h3>Sleep Hygiene</h3>
+                <p>Improve your sleep quality with these proven techniques...</p>
+                <a href="wellness/blog2" class="read-more">Read More</a>
+            </article>
+
+            <article class="wellness-card">
+                <img src="<%=meditation%>" alt="Meditation">
+                <h3>Meditation</h3>
+                <p>Learn different meditation techniques for inner peace...</p>
+                <a href="wellness/blog3" class="read-more">Read More</a>
+            </article>
+        </section>
+    </main>
+
+    <footer> <!-- Added footer -->
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <p>Your go-to source for healthy living and wellness.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="recipes">Recipe Index</a></li>
+                    <li><a href="fitness">Fitness Tips</a></li>
+                    <li><a href="community">Join Our Community</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Healthy Living. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>

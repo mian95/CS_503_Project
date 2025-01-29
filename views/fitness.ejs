@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness - Healthy Living</title>
+    <link rel="stylesheet" href="styles/fitness.css">
+    <!-- /* Responsive Sheet */ -->
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+</head>
+<body>
+    <!-- Same header as index.html -->
+    <header>
+        <nav class="navbar"> <!-- Add Navbar -->
+            <div class="logo">
+                <h1><a href="/">Healthy Living</a></h1>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span class="open-btn">☰</span> <!-- Open button -->
+                <span class="close-btn" style="display: none;">✖</span> <!-- Close button -->
+            </button>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="fitness" class="active">Fitness</a></li>
+                <li><a href="wellness">Wellness</a></li>
+                <li><a href="recipes">Healthy Recipes</a></li>
+                <li><a href="outer_blog">Blog</a></li>
+                <li><a href="community">Community</a></li>
+                <li><a href="about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <!-- Hero Section -->
+      <section class="hero">
+        <h2>Fitness Tips & Workouts</h2>
+        <p>Discover tips and tricks for a healthier lifestyle</p>
+        <a href="#featured" class="cta-button">Explore Now</a>
+      </section>
+
+       
+        
+        <section id="featured" class="fitness-categories">
+            <div class="category-card">
+                <img src="<%=cardioImg%>" alt="Cardio Workouts">
+                <h3>Cardio Workouts</h3>
+                <ul>
+                    <li>Running Tips</li>
+                    <li>HIIT Workouts</li>
+                    <li>Swimming Exercises</li>
+                </ul>
+            </div>
+
+            <div class="category-card">
+                <img src="<%=trainingImg%>" alt="Strength Training">
+                <h3>Strength Training</h3>
+                <ul>
+                    <li>Weight Lifting Basics</li>
+                    <li>Body Weight Exercises</li>
+                    <li>Resistance Training</li>
+                </ul>
+            </div>
+
+            <div class="category-card">
+                <img src="<%=yogaImg%>" alt="Yoga & Flexibility">
+                <h3>Yoga & Flexibility</h3>
+                <ul>
+                    <li>Beginner Yoga Poses</li>
+                    <li>Stretching Routines</li>
+                    <li>Meditation Guides</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="workout-plans">
+            <h3>Featured Workout Plans</h3>
+            <!-- Add workout plan content -->
+        </section>
+    </main>
+
+    <!-- Same footer as index.html -->
+    <footer> <!-- Add Footer -->
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <p>Your go-to source for health and wellness tips.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Healthy Living. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="index.js"></script>
+</body>

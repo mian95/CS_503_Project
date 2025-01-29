@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Join our Healthy Living community. Connect with like-minded individuals, share your journey, and participate in health and wellness discussions.">
+    <meta name="keywords" content="healthy living community, fitness community, wellness forum, health discussions, lifestyle community">
+    <meta name="Muhammad Umair" content="Healthy Living Community">
+    <title>Community - Healthy Living</title>
+    <link rel="stylesheet" href="styles/community.css">
+    <!-- /* Responsive Sheet */ -->
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1><a href="/">Healthy Living</a></h1>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span class="open-btn">☰</span> <!-- Open button -->
+                <span class="close-btn" style="display: none;">✖</span> <!-- Close button -->
+            </button>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="fitness">Fitness</a></li>
+                <li><a href="wellness">Wellness</a></li>
+                <li><a href="recipes">Healthy Recipes</a></li>
+                <li><a href="outer_blog">Blog</a></li>
+                <li><a href="community" class="active">Community</a></li>
+                <li><a href="about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- Community Hero Section -->
+        <section class="hero community-hero">
+            <h2>Join Our Community</h2>
+            <p>Connect, share, and grow with like-minded individuals on their health journey</p>
+            <a href="#join-now" class="cta-button">Join Now</a>
+        </section>
+
+        <!-- Community Features -->
+        <section class="community-features">
+            <h3>Community Features</h3>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-users"></i>
+                    <h4>Discussion Forums</h4>
+                    <p>Engage in meaningful conversations about health, fitness, and wellness</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-medal"></i>
+                    <h4>Success Stories</h4>
+                    <p>Share and celebrate your health and fitness achievements</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-calendar-alt"></i>
+                    <h4>Events</h4>
+                    <p>Join virtual and local wellness events and meetups</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recent Discussions -->
+        <section class="recent-discussions">
+            <h3>Recent Discussions</h3>
+            <div class="discussion-list">
+                <article class="discussion-card">
+                    <div class="discussion-header">
+                        <img src="<%=avatar1%>" alt="User Avatar" class="avatar">
+                        <h4>Best Morning Workout Routine?</h4>
+                    </div>
+                    <p>Looking for recommendations on effective morning workouts...</p>
+                    <div class="discussion-meta">
+                        <span><i class="fas fa-comment"></i> 15 replies</span>
+                        <span><i class="fas fa-clock"></i> 2 hours ago</span>
+                    </div>
+                </article>
+
+                <article class="discussion-card">
+                    <div class="discussion-header">
+                        <img src="<%=avatar2%>" alt="User Avatar" class="avatar">
+                        <h4>Meal Prep Tips for Beginners</h4>
+                    </div>
+                    <p>Share your favorite meal prep strategies and recipes...</p>
+                    <div class="discussion-meta">
+                        <span><i class="fas fa-comment"></i> 23 replies</span>
+                        <span><i class="fas fa-clock"></i> 5 hours ago</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Join Community Section -->
+        <section id="join-now" class="join-community">
+            <h3>Become a Member</h3>
+            <form class="signup-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Full Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email Address" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" placeholder="Create Password" required>
+                </div>
+                <button type="submit" class="cta-button">Sign Up</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <p>Your go-to source for health and wellness tips.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Healthy Living. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- linking js file -->
+    <script src="index.js"></script>
+</body>
+</html>
